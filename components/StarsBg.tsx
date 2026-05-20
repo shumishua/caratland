@@ -13,12 +13,5 @@ export function StarsBg() {
       ref.current.appendChild(s)
     }
   }, [])
-  return (
-    <>
-      <div className="stars-bg" ref={ref} />
-      <div className="orb" style={{width:'320px',height:'320px',background:'rgba(109,40,217,.2)',top:'-120px',left:'-100px',['--d' as any]:'11s',['--tx' as any]:'25px',['--ty' as any]:'35px'}} />
-      <div className="orb" style={{width:'220px',height:'220px',background:'rgba(167,139,250,.13)',top:'100px',right:'-70px',['--d' as any]:'7s',['--delay' as any]:'-3s',['--tx' as any]:'-20px',['--ty' as any]:'15px'}} />
-      <div className="orb" style={{width:'180px',height:'180px',background:'rgba(196,181,253,.09)',bottom:'100px',left:'35%',['--d' as any]:'9s',['--delay' as any]:'-5s',['--tx' as any]:'15px',['--ty' as any]:'-25px'}} />
-    </>
-  )
+  return <div className="stars-bg" ref={ref} />
 }
