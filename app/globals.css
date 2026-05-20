@@ -174,8 +174,9 @@ body {
   border-radius: 16px;
   position: relative;
   overflow: visible;
-  transition: all .3s;
-isolation: isolate;}
+transition: all .3s;
+  isolation: isolate;
+}
 .cl-card::after {
   content: ''; position: absolute; inset: -1px;
   border-radius: 17px; z-index: -1; pointer-events: none;
