@@ -166,8 +166,9 @@ transition: all .3s;
 }
 .cl-card:hover { background: var(--bg3); border-color: transparent; transform: translateY(-4px); }
 .cl-card:hover::after {
-  background: conic-gradient(from var(--a,0deg), transparent 0deg, var(--p3) 60deg, var(--p1) 120deg, transparent 180deg, transparent 360deg);
-  animation: rotateborder 2s linear infinite;
+  border: 1px solid rgba(139,92,246,0.6);
+  border-radius: 17px;
+  box-shadow: 0 0 8px rgba(139,92,246,0.3);
 }
 
 /* Neon divider */
