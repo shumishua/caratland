@@ -40,20 +40,8 @@ body {
   transition: width .15s, height .15s, background .15s;
   box-shadow: 0 0 8px var(--p2), 0 0 16px rgba(196,181,253,.4);
 }
-.cursor-ring {
-  width: 24px; height: 24px;
-  border-radius: 50%;
-  border: 1.5px solid rgba(196,181,253,.5);
-  position: fixed;
-  pointer-events: none;
-  z-index: 9998;
-  transform: translate(-50%, -50%);
-  transition: width .2s, height .2s, border-color .2s, background .2s;
-}
 .cursor-dot.hovering { width: 4px; height: 4px; background: #fff; }
-.cursor-ring.hovering { width: 36px; height: 36px; border-color: var(--p2); background: rgba(139,92,246,.08); }
 .cursor-dot.clicking { width: 12px; height: 12px; }
-.cursor-ring.clicking { width: 18px; height: 18px; }
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
