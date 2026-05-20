@@ -161,11 +161,6 @@ body {
 /* Stars background */
 .stars-bg { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
 .star { position: absolute; border-radius: 50%; background: #fff; animation: twinkle var(--d,3s) ease-in-out infinite var(--delay,0s); }
-.orb {
-  position: fixed; border-radius: 50%;
-  filter: blur(70px); pointer-events: none; z-index: 0;
-  animation: floatorb var(--d,8s) ease-in-out infinite var(--delay,0s);
-}
 
 /* Cards */
 .cl-card {
