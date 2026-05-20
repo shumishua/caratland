@@ -259,8 +259,9 @@ select.cl-input { cursor: none; }
 }
 .person-card:hover { transform: translateY(-4px); border-color: transparent; }
 .person-card:hover::after {
-  background: conic-gradient(from var(--a,0deg), transparent 0deg, var(--p3) 60deg, var(--p1) 120deg, transparent 180deg, transparent 360deg);
-  animation: rotateborder 2s linear infinite;
+  border: 1px solid rgba(139,92,246,0.6);
+  border-radius: 13px;
+  box-shadow: 0 0 8px rgba(139,92,246,0.3);
 }
 .person-card:hover .person-add { opacity: 1; }
 .person-avatar {
